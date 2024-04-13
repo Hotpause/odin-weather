@@ -1,0 +1,138 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.container_left,
+.container_right {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.projects,
+.todos {
+  margin-top: 30px;
+}
+
+.projectinput {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.submitbutton,
+.todo_buttons {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submitbutton:hover,
+.todo_buttons:hover {
+  background-color: #45a049;
+}
+
+.projecttab,
+.todotab {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.projectclick {
+  cursor: pointer;
+}
+
+.selected {
+  /* Add styling for selected project tabs here */
+  background-color: red; /* Light gray background */
+  border: 2px solid #00bcd4; /* Light blue border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.deletebuttonpj,
+.deletebutton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 24px;
+}
+
+.deletebuttonpj:hover,
+.deletebutton:hover {
+  background-color: #d32f2f;
+}
+
+.todo-form {
+  border: 2px solid red;
+  margin: 30px 0;
+  padding: 20px;
+}
+
+.todo-form input[type="text"],
+.todo-form input[type="date"],
+.todo-form input[type="number"],
+.todo-form button[type="submit"] {
+  display: block;
+  width: calc(100% - 24px);
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.todo-form button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.todo-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.edit-form {
+  border: 2px solid blue;
+  margin: 30px 0;
+  padding: 20px;
+}
+
+.container_left {
+  width: 30%;
+}
+
+.container_right {
+  width: 70%;
+}
