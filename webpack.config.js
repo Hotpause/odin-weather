@@ -25,7 +25,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
-            title: 'TODO ASHU',
+            title: 'Weather app ashu',
             filename: 'index.html',
             inject: 'body',
         })
