@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Weather App</h1>
+
+    <form id="weatherForm">
+      <label for="locationInput">Enter Location:</label>
+      <input type="text" id="locationInput" name="location" required />
+      <button type="submit">Get Weather</button>
+      <div id="toggleUnit">
+        <button id="celsiusBtn" class="active">Celsius</button>
+        <button id="fahrenheitBtn">Fahrenheit</button>
+      </div>
+    </form>
+    <div class="currentinfo">current weather info</div>
+    <div class="forecastinfo">forecast</div>
+  <script defer src="bundle.js"></script></body>
+</html>
